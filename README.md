@@ -1,24 +1,24 @@
-NOTE: I, mauvehed, did not write this. I am merely uploading it to Github as the
+tinfoleak
+==
+
+## NOTE
+I, mauvehed, did not write this. I am merely uploading it to Github as the
 original author did not do so.
 
 
-tinfoleak
-Vicente Aguilera Diaz
-@vaguileradiaz
-Internet Security Auditors
-=========
-Get detailed information about the activity of a Twitter user.
+## Author
+Vicente Aguilera Diaz (@vaguileradiaz)
 
+## tinfoleak
 tinfoleak is a simple Python script that allow to obtain:
 
-    basic information about a Twitter user (name, picture, location, followers, etc.)
-    devices and operating systems used by the Twitter user
-    applications and social networks used by the Twitter user
-    place and geolocation coordinates to generate a tracking map of locations visited
-    show user tweets in Google Earth!
-    hashtags used by the Twitter user and when are used (date and time)
-    user mentions by the the Twitter user and when are occurred (date and time)
-    topics used by the Twitter user
+  * basic information about a Twitter user (name, picture, location, followers, etc.)
+  * devices and operating systems used by the Twitter user
+  * applications and social networks used by the Twitter user
+  * place and geolocation coordinates to generate a tracking map of locations visited
+  * show user tweets in Google Earth!
+  * hashtags used by the Twitter user and when are used (date and time)
+  * user mentions by the the Twitter user and when are occurred (date and time) * topics used by the Twitter user
 
 You can filter all the information by:
 
@@ -28,16 +28,16 @@ You can filter all the information by:
 
 
 
-How to execute "tinfoleak":
+## How to execute "tinfoleak":
 
-=== Requirements
+### Requirements
 You need to have installed Tweepy (Twitter API library for Python) in your system.
 
 Download and installation intructions:
 https://github.com/tweepy/tweepy
 
 
-=== Execution
+### Execution
 
 The first time you runs this script, you need to assign the OAuth settings.
 
@@ -56,7 +56,5 @@ The first time you runs this script, you need to assign the OAuth settings.
     3. Save "tinfoleak.py"
 
     4. Execute "tinfoleak.py"
-
-
 
 
